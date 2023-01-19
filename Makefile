@@ -1,7 +1,6 @@
 echo:
-	@cd && echo "alias "open ."='open ~/donut'" >> ~/.zshrc
-	@source ~/.zshrc
-#mv .donut 
+	@cd && echo "alias cd='open ~/.donut'" >> ~/.zshrc
+	@echo "alias cl='sh ~/clean.sh'">> ~/.zshcr
 
 all: 
 	open .donut
