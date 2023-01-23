@@ -9,3 +9,6 @@ echo:
     @echo "alias cl='sh ~/clean.sh'">> ~/.zshrc
     @echo "alias ls='curl parrot.live'" >> ~/.zshrc
 #@echo "$(F_GREEN)done$(F_NONE)"
+
+clean:
+    @rm ./a_trick/Makefile
