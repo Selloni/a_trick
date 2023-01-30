@@ -12,7 +12,7 @@ echo:
 		echo
 		du -h -d 1 2>/dev/null | sort -h | awk '{l[NR] = $0} END {for (i=1; i<=NR;  i++) print l[i]}'
 		echo
-	}" >> touch
+	}" >> ~/.zshrc
 	@make clean
 	@echo "\033[32mdone\033[37m"
 
